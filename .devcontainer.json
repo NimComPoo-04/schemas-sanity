@@ -1,0 +1,7 @@
+{
+	"name": "Typedfolio",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node",
+	"forwardPorts": [3333],
+	"remoteUser": "node",
+	"postCreateCommand": "bash -i -c lib/get-user-project-id.sh"
+}
