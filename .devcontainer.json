@@ -3,5 +3,5 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node",
 	"forwardPorts": [3333],
 	"remoteUser": "node",
-	"postCreateCommand": "bash -i -c lib/get-user-project-id.sh"
+	"postCreateCommand": "chmod +x lib/get-user-project-id.sh && bash -i -c lib/get-user-project-id.sh"
 }
